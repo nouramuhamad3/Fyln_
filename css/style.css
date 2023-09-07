@@ -75,17 +75,19 @@ nav ul a:hover {
 .first-sec button {
     width: 200px;
     background-color: #80f6ee;
-    color: #fff;
+    color: #232d42;
     padding: 15px;
     font-size: 20px;
     border-radius: 40px;
     cursor: pointer;
+    transition: 200ms ease-in-out;
 }
 
 .first-sec button:hover {
     background-color: #ffff;
     color: #80f6ee;
     cursor: pointer;
+    outline: none;
 }
 
 .features {
